@@ -2,7 +2,7 @@
       "Monday": ["MPT", "Science", "English", "Math", "Hindi", "SST", "Swimming & Games"],
       "Tuesday": ["Science", "Math", "SEL/LIB", "Hindi", "English", "Computer", "SST"],
       "Wednesday": ["Science", "Math", "Hindi", "Marathi", "English", "Computer", "LR/APT"],
-      "Thursday": ["Science", "English", "Music/PA", "P.T", "Math", "SST", "Marathi"],
+      "Thursday": ["Science", "English", "P.T", "Math", "SST", "Marathi", "Music/PA"],
       "Friday": ["Math", "Science", "English", "Hindi", "SST", "Art", "Act/Computer/PD"],
       "Saturday": ["Holiday"],
       "Sunday": ["Holiday"]
