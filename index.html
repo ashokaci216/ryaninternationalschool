@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Class 6D Timetable</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ryan International School</h1>
+      <p>Sector-10 Sanpada, Navi Mumbai</p>
+      <p>📞 022 4619 0299</p>
+      <h2>Class 6D Timetable</h2>
+      <div class="toolbar">
+        <button id="themeToggle">🌗 Toggle Mode</button>
+        <select id="themeChooser">
+          <option value="default">Default</option>
+          <option value="ocean">Ocean</option>
+          <option value="sunset">Sunset</option>
+          <option value="chalkboard">Chalkboard</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <section id="daysScreen">
+        <div class="days-grid">
+          <button class="day-btn" data-day="Monday">Monday</button>
+          <button class="day-btn" data-day="Tuesday">Tuesday</button>
+          <button class="day-btn" data-day="Wednesday">Wednesday</button>
+          <button class="day-btn" data-day="Thursday">Thursday</button>
+          <button class="day-btn" data-day="Friday">Friday</button>
+          <button class="day-btn" data-day="Saturday">Saturday</button>
+          <button class="day-btn" data-day="Sunday">Sunday</button>
+        </div>
+      </section>
+
+      <section id="timetableScreen" class="hidden">
+        <button id="backBtn">← Back to Days</button>
+        <h3 id="selectedDayTitle"></h3>
+        <p id="autoMessage" class="info-message"></p>
+        <ul id="subjectList"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

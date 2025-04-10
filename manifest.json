@@ -1,0 +1,9 @@
+{
+      "name": "Class 6D Timetable",
+      "short_name": "6D Timetable",
+      "start_url": "index.html",
+      "display": "standalone",
+      "background_color": "#ffffff",
+      "theme_color": "#0077cc",
+      "icons": []
+    }
