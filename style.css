@@ -12,6 +12,10 @@ body {
 header {
   text-align: center;
   margin-bottom: 1rem;
+  background-color: #e0f7fa; /* light blue */
+  color: #004b7c;
+  padding: 1rem;
+  border-radius: 10px;
 }
 .toolbar {
   margin-top: 10px;
